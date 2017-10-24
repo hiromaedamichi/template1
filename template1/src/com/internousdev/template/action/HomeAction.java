@@ -1,5 +1,10 @@
-package com.internousdev.template.action;
+package com.internous.template.action;
 
-public class HomeAction {
-
+public class HomeAction extends ActionSupport {
+	
+	
+	
+	public String execute() {
+		return SUCCESS;
+	}
 }
